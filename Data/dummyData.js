@@ -1,11 +1,12 @@
-const bollyData=[
+const blogData=[
 
     {
         id:1,
         name:'Adipurush',
+       //  head:'Adipurush To Ghoomer: Major Bollywood Flops Of 2023 So Far',
         category:'BollyWood',
         image:'https://img.republicworld.com/republic-prod/stories/images/xxhdpi/169355854764f1a713383bb.jpeg?tr=w-758,h-433',
-        para:'Adipurush (transl. First man)[a] is a 2023 Indian mythological action film based on the Hindu epic Ramayana.[9] The film is directed and co-written by Om Raut, and produced by T-Series and Retrophiles. Shot simultaneously in Hindi and Telugu, the film features Prabhas, Saif Ali Khan, Kriti Sanon, Sunny Singh, and Devdutta Nage.',
+        para:'Adipurush (transl. First man)[a] is a 2023 Indian mythological action film based on the Hindu epic Ramayana.[9] The film is directed and co-written by Om Raut, and produced by T-Series and Retrophiles. Shot simultaneously in Hindi and Telugu, the film features Prabhas, Saif Ali Khan, Kriti Sanon, Sunny Singh, and Devdutta Nage.The film was announced in August 2020, through an official motion poster. Principal photography, which took place primarily in Mumbai, commenced in February 2021 and ended in November 2021. The film s music is composed by Ajay–Atul. Adipurush is budgeted at ₹500 crore (US$63 million)–₹700 crore (US$88 million) placing it in the list of most expensive Indian films.[10][3][4] Adipurush was released on 16 June 2023 to negative reviews from critics, who criticised the film s screenplay, dialogues and visuals.',
        error:"page is not found"
     },
    
@@ -126,18 +127,16 @@ const bollyData=[
    
    
    },
-   {
-       id:15,
-       name:'Raees',
-       category:'BollyWood',
-       image:'https://tse2.mm.bing.net/th?id=OIP.1acgsn7FamUv6uHz3MlaZgHaEK&pid=Api&P=0&h=180',
-       para:'Raees (transl. Rich) is a 2017 Indian Hindi-language action film[6] directed by Rahul Dholakia and produced by Red Chillies Entertainment and Excel Entertainment.[7] It stars Shah Rukh Khan, Nawazuddin Siddiqui and Mahira Khan.[8][9][10] Raees is said to be based on the criminal Abdul Latif s life,[11] however, the filmmakers have denied this.1...'
-   },
+   // {
+   //     id:15,
+   //     name:'Raees',
+   //     category:'BollyWood',
+   //     image:'https://tse2.mm.bing.net/th?id=OIP.1acgsn7FamUv6uHz3MlaZgHaEK&pid=Api&P=0&h=180',
+   //     para:'Raees (transl. Rich) is a 2017 Indian Hindi-language action film[6] directed by Rahul Dholakia and produced by Red Chillies Entertainment and Excel Entertainment.[7] It stars Shah Rukh Khan, Nawazuddin Siddiqui and Mahira Khan.[8][9][10] Raees is said to be based on the criminal Abdul Latif s life,[11] however, the filmmakers have denied this.1...'
+   // },
    
    
-]
-
-const hollyData=[
+   
    
    {
        id:16,
@@ -268,8 +267,6 @@ const hollyData=[
    error:"page is not found"
    
    },
-
-
    {
        id:30,
        name:'GHOST IN THE SHELL',
@@ -277,11 +274,7 @@ const hollyData=[
        image:'https://i.ytimg.com/vi/_m4e5-4E9NE/maxresdefault.jpg',
        para:'Ghost in the Shell[a] is a Japanese cyberpunk media franchise based on the seinen manga series of the same name written and illustrated by Masamune Shirow. The manga, first serialized in 1989 under the subtitle of The Ghost in the Shell, and later published as its own tankōbon volumes by Kodansha, told the story of the fictional counter-cyberterrorist organization Public Security Section 9, led by protagonist Major Motoko Kusanagi, and is set in mid-21st century Japan.',
        error:"page is not found"
-   }
-
-]
-
-const fitData=[
+   },
    {
        id:31,
        category:'Fitness',
@@ -420,10 +413,7 @@ const fitData=[
        para:'An important key to being in shape is to set goals and keep a positive mindset. If you stay positive, you will be able to push yourself to get that fit body you ve always wanted.',
        error:"page is not found"
    
-   }
-]
-
-const foodData=[
+   },
    {
        id:46,
        name:'Pakora',
@@ -555,9 +545,7 @@ const foodData=[
        image:'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347361/india-food-tandoori-chicken/india-food-tandoori-chicken-1120x732.jpg',
        para:'Rogan josh is a staple of Kashmiri cuisine. It consists of braised lamb chunks cooked with gravy made from browned onions, yogurt, garlic, ginger, and aromatic spices. Known for its brilliant red color, a classic rogan josh uses liberal amounts of dried Kashmiri chilis.' ,
        error:"page is not found"
-   }
-]
-const techData=[
+   },
    {
       id:61,
       name:'Laser Precision Qubit Control',
@@ -678,11 +666,31 @@ const techData=[
        image:'https://scitechdaily.com/images/NASAs-X-59-QueSST-2048x1536.jpg?ezimgfmt=ng%3Awebp%2Fngcb2%2Frs%3Adevice%2Frscb2-1',
        para:'NASAs X-59 aircraft, capable of supersonic flight while reducing sonic booms to quieter ‘thumps’, has been moved for testing in California. ',
        error:"page is not found"
-       
-   }
+       // The collected data on human reactions to supersonic noise will potentially assist in enabling commercial supersonic flight over land.The following series of images shows NASA’s X-59 as it sits on the flight line—the space between the hangar and the runway—at Lockheed Martin Skunk Works in Palmdale, California, on June 19, 2023. The move from its construction site to the flight line is one of many milestones that prepare the X-59 for its first and subsequent flights. Next up, the team will conduct significant ground tests to ensure the aircraft is safe to fly.
+   },
+   {
+       id:76,
+       // name:'',
+       image:'https://i.ytimg.com/vi/rDBLh9mTfKE/maxresdefault.jpg',
+       error:"page is not found"
+       // category:'',
+       // para:''
+   
+   },
+   {
+       id:77,
+       // name:'',
+       image:'https://1.bp.blogspot.com/-Vdjtxyjnjxk/WdW07ZO5EPI/AAAAAAAALC0/gwXOlmW4DtYpB30vkmwNt7HW8M6PZORDQCLcBGAs/s1600/The%2BForest%2B-%2BMovie%2BPoster.png',
+       error:"page is not found"
+       // category:'',
+   
+   },
+   {
+       id:78,
+       image:'https://www.indiewire.com/wp-content/uploads/2018/07/pennywise-bill-skarsgard-it-movie.jpg',
+       error:"page is not found"
+   },
+   ]
 
-
-]
-
-
-module.exports={bollyData,hollyData,fitData,foodData,techData}
+// module.exports={bollyData,hollyData,fitData,foodData,techData}
+module.exports=blogData

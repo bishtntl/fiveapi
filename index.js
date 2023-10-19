@@ -18,10 +18,12 @@ const middleware1=((req,res,next)=>{
 })
 
 appone.use(middleware1)
+
 appone.use("/api",final)
-appone.get('./',(req,res)=>{
+appone.get('/',(req,res)=>{
     res.send("there check my data")
 })
+
 
 
 
